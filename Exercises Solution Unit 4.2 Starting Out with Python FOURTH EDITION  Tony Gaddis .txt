@@ -1,0 +1,10 @@
+Calories Burned
+Running on a particular treadmill you burn 4.2 calories per minute. Write a program that
+uses a loop to display the number of calories burned after 10, 15, 20, 25, and 30 minutes.
+
+burn_collories=4.2
+munite=10
+while munite<=30:
+        collories=burn_collories*munite
+        munite+=5 
+        print(collories)

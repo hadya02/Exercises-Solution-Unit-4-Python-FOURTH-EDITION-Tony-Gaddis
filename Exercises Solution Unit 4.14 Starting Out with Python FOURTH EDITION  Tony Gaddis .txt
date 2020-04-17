@@ -1,0 +1,13 @@
+Write a program that uses nested loops to draw this pattern:
+##
+# #
+#  #
+#   #
+#    #
+#     #
+
+
+i=6
+while i>=1:
+ print("#", end='')
+print("##")

@@ -1,0 +1,30 @@
+Lap Times
+Write a program that asks the user to enter the number of times that they have run around
+a racetrack, and then uses a loop to prompt them to enter the lap time for each of their laps.
+When the loop finishes, the program should display the time of their fastest lap, the time of
+their slowest lap, and their average lap time.
+
+
+
+number_of_time=int(input("enter the number of time :"))
+round=1
+while_of_round<=3
+     each_round=number_of_time*round
+     round+=1 
+if round>number_of_time:
+  print("fast")
+elif round<number_of_time:
+  print("slow")
+else:
+  print("average")
+
+i=
+time_race=3
+while i<=time_race:
+ laps=int(input("enter the time of the laps:"))
+ if laps1<laps:
+    print("fastest")
+ elif laps1>laps:
+    print("slowlest")
+ else:
+    print("averagr")

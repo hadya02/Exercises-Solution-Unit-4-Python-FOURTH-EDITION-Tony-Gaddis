@@ -1,0 +1,25 @@
+ Tuition Increase
+At one college, the tuition for a full-time student is $8,000 per semester. It has been announced
+that the tuition will increase by 3 percent each year for the next 5 years. Write a program
+with a loop that displays the projected semester tuition amount for the next 5 years.
+
+print("semmester\ttuition")
+print('----------')
+semester_tuition=8000
+for semester in range(1,11):
+ percentage=(8000*3)/100
+ if 1<=semester <=2:
+  tuition=semester_tuition+(1*percentage)
+  print(semester,'\t',tuition)
+ elif 3<=semester<=4:
+  tuition=semester_tuition+(2*percentage)
+  print(semester,'\t',tuition)
+ elif 5<=semester<=6:
+  tuition=semester_tuition+(3*percentage)
+  print(semester,'\t',tuition)
+ elif 7<=semester<=8:
+  tuition=semester_tuition+(4*percentage)
+  print(semester,'\t',tuition)
+ elif 9<=semester<=10:
+  tuition=semester_tuition+(5*percentage)
+  print(semester,'\t',tuition)
